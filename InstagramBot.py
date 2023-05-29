@@ -49,6 +49,7 @@ class InstagramBotGPT:
     
 if __name__ == "__main__":
     if len(sys.argv) < 3:
+        print(sys.argv)
         raise Exception("USER and API_KEY is mandatory and must be passed as an argument.")
     USER = sys.argv[1] 
     API_KEY = sys.argv[2] 
